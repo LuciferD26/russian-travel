@@ -6,6 +6,11 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
 }
 
 .header__lang-link:last-child {
