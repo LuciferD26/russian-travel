@@ -1,4 +1,7 @@
 .photo-grid__item-img {
   max-width: 100%;
+  width: 284px;
+  height: 213px;
+  vertical-align: top;
   object-fit: cover;
 }
