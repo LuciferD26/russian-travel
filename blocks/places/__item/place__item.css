@@ -1,0 +1,9 @@
+.place__item {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 1fr 460px;
+  padding-bottom: 80px;
+  grid-gap: 48px 40px;
+}
