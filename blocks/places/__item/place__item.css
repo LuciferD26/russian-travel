@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: calc(50% - 48px) calc(50% - 24px);;
   padding-bottom: 80px;
   grid-gap: 48px 40px;
 }
