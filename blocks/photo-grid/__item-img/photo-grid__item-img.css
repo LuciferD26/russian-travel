@@ -4,4 +4,13 @@
   height: 213px;
   vertical-align: top;
   object-fit: cover;
+  transition: transform .3s ease-in-out;
 }
+
+.photo-grid__item-img:hover {
+  transform: scale(1.05);
+  border: 3px solid #fff;
+  box-sizing: border-box;
+}
+
+/* С этим блоком меня немного занесло, хотелось хоть немного добавить что-то из пройденного ранее материала. Знаю что это не по брифу, если это будет лишним, уберу. */
