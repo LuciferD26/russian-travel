@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
@@ -19,12 +20,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.7);
-  opacity: 0.7;
+  background-color: rgba(42,44,47,0.8);
+  opacity: .3;
   z-index: -1;
-  transition: opacity 200ms ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .cover__link:hover:before {
-  opacity: .7;
+  opacity: .8;
 }
