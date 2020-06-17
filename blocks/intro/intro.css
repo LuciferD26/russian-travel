@@ -4,8 +4,10 @@
 @import url('./__list-item/intro__list-item.css');
 
 .intro {
-  max-width: calc(100% - 494px);
-  width: 100%;
-  margin: 0;
-  padding:92px 100px;
+  width: calc(100% - 2 * 100px);
+  min-height: 428px;
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 92px 0;
+  box-sizing: border-box;
 }
