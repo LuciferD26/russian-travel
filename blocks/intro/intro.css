@@ -11,3 +11,9 @@
   padding: 92px 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 2 * 48px);
+  }
+}
