@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .footer {
     padding: 64px 16px 24px;
     flex-direction: column;

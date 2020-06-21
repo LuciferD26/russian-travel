@@ -1,5 +1,5 @@
 @import url('./__items/photo-grid__items.css');
-@import url('./__item/photo-grid__item');
+@import url('./__item/photo-grid__item.css');
 @import url('./__item-img/photo-grid__item-img.css');
 
 .photo-grid {

@@ -5,10 +5,13 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  align-self: flex-end;
+  white-space: nowrap;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .footer__copyright {
     padding-top: 16px;
+    align-self: flex-start;
   }
 }
